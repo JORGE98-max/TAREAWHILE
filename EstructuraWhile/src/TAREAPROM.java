@@ -1,16 +1,21 @@
+import java.util.Scanner;
 
 public class TAREAPROM {
 
 	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
 
-		int i, prom, sumpar, sumimpar, contador;
+		int i, prom, sumpar, sumimpar, contador, num;
 		prom = 0;
 		sumpar = 0;
 		sumimpar = 0;
 		contador = 0;
 		i = 0;
+		
+		System.out.println("Ingrese un numero: ");
+		num = scan.nextInt();
 
-		while (i <= 270) {
+		while (i <= num) {
 
 			i += 1;
 
