@@ -5,7 +5,7 @@ public class EjercicioDoWhile {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		int num, i, sum, sumnum;
+		int num, sumnum;
 		
 		sumnum = 0;
 	
