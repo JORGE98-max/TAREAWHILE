@@ -20,7 +20,7 @@ public class Ejercicio3DoWhile {
 			edad = scan.nextInt();
 			i += 1;
 			sum = sum + edad;
-			prom = sum / i;
+			prom = sum / cantidad;
 		} while (i <= cantidad);
 
 		System.out.println("El promedio de las edades ingresadas es : " + prom);
